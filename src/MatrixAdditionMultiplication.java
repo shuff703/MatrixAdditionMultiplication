@@ -24,8 +24,6 @@ public class MatrixAdditionMultiplication {
 	public static int [][] multMatrix(int [][] a, int [][] b) {
 		int [][] result = new int [a.length][b[0].length];
 		for(int i = 0; i < a.length; i++) {
-			int [] aVector = new int [a.length];
-			int sum = 0;
 			for(int j = 0; j < b[0].length; j++) {
 				for(int k = 0; k < a[0].length; k++) {
 					//here you had the values in a/b vvvvvvvvvv being added rather than multiplied
